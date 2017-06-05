@@ -7,7 +7,7 @@ With modification in colors and buttons to match the Xbox ONE Dashboard.
 
 Currently available to Aurora 0.6b
 
-** Tasks **
+**Tasks**
 - [x] Initial colors changes;
 - [ ] Change some blue colors in skin;
 - [ ] Change loading screen;
