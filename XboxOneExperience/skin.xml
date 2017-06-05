@@ -1,0 +1,204 @@
+<skin xmlver="1.0">
+	<info>
+		<options>
+			<name>FALSE</name>
+			<fps>FALSE</fps>
+			<cpu>FALSE</cpu>
+			<mem>FALSE</mem>
+			<xfx>FALSE</xfx>
+      <anim>FALSE</anim>
+		</options>
+		<fonts>
+			<font name="Segoe UI Regular" file="Fonts/segoeui_r.ttf" default="true" absolute="false" fallback="ConsoleFont" />
+			<font name="Segoe UI Bold" file="Fonts/segoeuib_r.ttf" default="false" absolute="false" fallback="ConsoleFont" />
+			<font name="Segoe UI Black" file="Fonts/seguibl_r.ttf" default="false" absolute="false" fallback="ConsoleFont" />
+			<font name="Segoe UI Semibold" file="Fonts/seguisb_r.ttf" default="false" absolute="false" fallback="ConsoleFont" />
+		</fonts>
+	</info>
+	<settings>
+		<CoverFlow>
+			<Instance id="CoverFlow">
+				<COVERFLOWFXLPATH>Shaders\CoverflowShader.fx</COVERFLOWFXLPATH>
+				<COVERFLOWXPRPATH>Textures\CoverFlow.xpr</COVERFLOWXPRPATH>
+				<GAMECOVERXBGPATH>Meshes\GameCover.xbg</GAMECOVERXBGPATH>
+				<GAMECOVERXBGBOXARTID>1</GAMECOVERXBGBOXARTID>
+				<GAMECOVERXBGCASEID>0</GAMECOVERXBGCASEID>
+				<ENABLEDEFAULT>TRUE</ENABLEDEFAULT>
+				<LAYOUTCOUNT>0</LAYOUTCOUNT>
+				<LAYOUTPATH1></LAYOUTPATH1>
+			</Instance>
+		</CoverFlow>
+    <UtilityScriptList>
+      <Instance id="ScriptList">
+        <MISSING>Images\Icons\UtilityScripts\Aurora.Skin.Missing.Icon.Small.dds</MISSING>
+      </Instance>
+    </UtilityScriptList>
+    <QuickView>
+      <Instance id="QuickView">
+        <QVICONFOLDER>Images\Icons\QuickView\Additional</QVICONFOLDER>
+        <MISSING>Images\Icons\QuickView\Aurora.Skin.Missing.Icon.Small.dds</MISSING>
+        <SHOWALL>Images\Icons\QuickView\Aurora.Skin.QV.White.Show.All.dds</SHOWALL>
+        <XBOX360>Images\Icons\QuickView\Aurora.Skin.QV.White.Xbox.360.dds</XBOX360>
+        <KINECT>Images\Icons\QuickView\Aurora.Skin.QV.White.Kinect.dds</KINECT>
+        <XBLA>Images\Icons\QuickView\Aurora.Skin.QV.White.XBLA.dds</XBLA>
+        <XBOXCLASSIC>Images\Icons\QuickView\Aurora.Skin.QV.White.Xbox.Classic.dds</XBOXCLASSIC>
+        <INDIE>Images\Icons\QuickView\Aurora.Skin.QV.White.Indie.dds</INDIE>
+        <EMULATORS>Images\Icons\QuickView\Aurora.Skin.QV.White.Emulators.dds</EMULATORS>
+        <HOMEBREW>Images\Icons\QuickView\Aurora.Skin.QV.White.Homebrew.dds</HOMEBREW>
+        <FAVORITES>Images\Icons\QuickView\Aurora.Skin.QV.White.Favorites.dds</FAVORITES>
+        <LINK>Images\Icons\QuickView\Aurora.Skin.QV.White.LiNK.dds</LINK>
+        <NETWORK>Images\Icons\QuickView\Aurora.Skin.QV.White.Network.dds</NETWORK>
+      </Instance>
+    </QuickView>
+    <QuickViewList>
+      <Instance id="QuickViewList">
+        <DEFAULT>Images\Icons\QuickView\Aurora.Skin.Dialogs.View.QVB.Default.Blur.png</DEFAULT>
+        <DEFAULTFOCUS>Images\Icons\QuickView\Aurora.Skin.Dialogs.View.QVB.Default.Focus.png</DEFAULTFOCUS>
+        <DISABLED>Images\Icons\QuickView\Aurora.Skin.Dialogs.View.QVB.Disabled.Blur.png</DISABLED>
+        <DISABLEDFOCUS>Images\Icons\QuickView\Aurora.Skin.Dialogs.View.QVB.Disabled.Focus.png</DISABLEDFOCUS>
+      </Instance>
+    </QuickViewList>
+    <ModuleList>
+      <Instance id="ModuleList">
+        <CFEDITDLL>Images\Icons\Modules\Aurora.Skin.Scenes.Settings.Artwork.Modules.Icons.CoverflowEditor.png</CFEDITDLL>
+        <CONNECTX>Images\Icons\Modules\Aurora.Skin.Scenes.Settings.Artwork.Modules.Icons.ConnectX.png</CONNECTX>
+        <DASHLAUNCH>Images\Icons\Modules\Aurora.Skin.Scenes.Settings.Artwork.Modules.Icons.DashLaunch.png</DASHLAUNCH>
+        <FREESTYLEPLUGIN>Images\Icons\Modules\Aurora.Skin.Scenes.Settings.Artwork.Modules.Icons.FreestylePlugin.png</FREESTYLEPLUGIN>
+        <FTPDLL>Images\Icons\Modules\Aurora.Skin.Scenes.Settings.Artwork.Modules.Icons.FTP.png</FTPDLL>
+        <NOVADLL>Images\Icons\Modules\Aurora.Skin.Scenes.Settings.Artwork.Modules.Icons.NOVA.png</NOVADLL>
+        <SMBDLL>Images\Icons\Modules\Aurora.Skin.Scenes.Settings.Artwork.Modules.Icons.SMB.png</SMBDLL>
+        <NETDBG>Images\Icons\Modules\Aurora.Skin.Scenes.Settings.Artwork.Modules.Icons.NetDbg.png</NETDBG>
+      </Instance>"
+    </ModuleList>
+    <WallpaperList>
+      <Instance id="WallpaperList">
+        <DEFAULTBKG>Images\Background\Aurora.Background.jpg</DEFAULTBKG>
+        <MISSINGLARGE>Images\Icons\Thumbnails\Aurora.Skin.Missing.Thumbnail.Large.png</MISSINGLARGE>
+        <MISSINGSMALL>Images\Icons\Thumbnails\Aurora.Skin.Missing.Thumbnail.Small.png</MISSINGSMALL>
+      </Instance>
+    </WallpaperList>
+    <SkinList>
+      <Instance id="SkinList">
+        <MISSINGLARGE>Images\Icons\Thumbnails\Aurora.Skin.Missing.Thumbnail.Large.png</MISSINGLARGE>
+        <MISSINGSMALL>Images\Icons\Thumbnails\Aurora.Skin.Missing.Thumbnail.Small.png</MISSINGSMALL>
+      </Instance>
+    </SkinList>
+    <GamepadButtonList>
+      <Instance id="GamepadButtonList">
+        <START>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Start.Enabled.Blur.png</START>
+        <BACK>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Back.Enabled.Blur.png</BACK>
+        <DPADUP>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Dpad.Up.Enabled.Blur.png</DPADUP>
+        <DPADDOWN>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Dpad.Down.Enabled.Blur.png</DPADDOWN>
+        <DPADLEFT>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Dpad.Left.Enabled.Blur.png</DPADLEFT>
+        <DPADRIGHT>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Dpad.Right.Enabled.Blur.png</DPADRIGHT>
+        <LEFTTHUMB>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Thumb.Left.Enabled.Blur.png</LEFTTHUMB>
+        <RIGHTTHUMB>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Thumb.Right.Enabled.Blur.png</RIGHTTHUMB>
+        <LEFTSHOULDER>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Bumper.Left.Enabled.Blur.png</LEFTSHOULDER>
+        <RIGHTSHOULDER>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Bumper.Right.Enabled.Blur.png</RIGHTSHOULDER>
+        <X>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.X.Enabled.Blur.png</X>
+        <Y>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.Y.Enabled.Blur.png</Y>
+        <A>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.A.Enabled.Blur.png</A>
+        <B>Images\Visuals\XuiGamepad\Aurora.Skin.Controls.Controller.Buttons.B.Enabled.Blur.png</B>
+      </Instance>
+    </GamepadButtonList>
+		<FileManager>
+			<Instance id="FileManagerMenu">
+				<NEWDIR>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.NewDirectory.Enabled.png</NEWDIR>
+				<NEWDIRDISABLED>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.NewDirectory.Disabled.png</NEWDIRDISABLED>
+				<RENAME>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.Rename.Enabled.png</RENAME>
+				<RENAMEDISABLED>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.Rename.Disabled.png</RENAMEDISABLED>
+				<DELETE>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.Delete.Enabled.png</DELETE>
+				<DELETEDISABLED>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.Delete.Disabled.png</DELETEDISABLED>
+				<CUT>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.Cut.Enabled.png</CUT>
+				<CUTDISABLED>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.Cut.Disabled.png</CUTDISABLED>
+				<COPY>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.Copy.Enabled.png</COPY>
+				<COPYDISABLED>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.Copy.Disabled.png</COPYDISABLED>
+				<PASTEFROMCUT>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.PasteFromCut.Enabled.png</PASTEFROMCUT>
+				<PASTEFROMCUTDISABLED>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.PasteFromCut.Disabled.png</PASTEFROMCUTDISABLED>
+				<PASTEFROMCOPY>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.PasteFromCopy.Enabled.png</PASTEFROMCOPY>
+				<PASTEFROMCOPYDISABLED>Images\Icons\FileManager\Aurora.Skin.Scenes.FileManager.Menu.Icons.Artwork.PasteFromCopy.Disabled.png</PASTEFROMCOPYDISABLED>
+			</Instance>
+			<Instance id="FileManagerList">
+				<DIRECTORY>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.Directory.Deselected.Blur.png</DIRECTORY>
+				<DIRECTORYFOCUS>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.Directory.Deselected.Focus.png</DIRECTORYFOCUS>
+				<DIRECTORYSELECTED>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.Directory.Selected.Blur.png</DIRECTORYSELECTED>
+				<DIRECTORYSELECTEDFOCUS>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.Directory.Selected.Focus.png</DIRECTORYSELECTEDFOCUS>
+				<FILE>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.File.Deselected.Blur.png</FILE>
+				<FILEFOCUS>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.File.Deselected.Focus.png</FILEFOCUS>
+				<FILESELECTED>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.File.Selected.Blur.png</FILESELECTED>
+				<FILESELECTEDFOCUS>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.File.Selected.Focus.png</FILESELECTEDFOCUS>
+				<LAUNCHABLE>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.Launchable.Deselected.Blur.png</LAUNCHABLE>
+				<LAUNCHABLEFOCUS>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.Launchable.Deselected.Focus.png</LAUNCHABLEFOCUS>
+				<LAUNCHABLESELECTED>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.Launchable.Selected.Blur.png</LAUNCHABLESELECTED>
+				<LAUNCHABLESELECTEDFOCUS>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.Filebrowser.Icons.Artwork.Launchable.Selected.Focus.png</LAUNCHABLESELECTEDFOCUS>
+				<DEVICE>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.FileBrowser.Icons.Artwork.Hdd.Blur.png</DEVICE>
+				<DEVICEFOCUS>Images\Icons\FileManager\Aurora.Skin.Scenes.Filemanager.FileBrowser.Icons.Artwork.Hdd.Focus.png</DEVICEFOCUS>
+				<DEVICESELECTED></DEVICESELECTED>
+				<DEVICESELECTEDFOCUS></DEVICESELECTEDFOCUS>
+			</Instance>
+		</FileManager>
+		<LanguageList>
+			<Instance id="LanguageList">
+				<MISSINGICONPATH>Images\Icons\Language\Aurora.Skin.Scenes.Settings.Language.Artwork.Icons.Missing.png</MISSINGICONPATH>
+			</Instance>
+		</LanguageList>
+		<ScnGameOptions>
+			<Instance id="ScnGameOptions">
+				<GAMEHIDEICON>Images\Icons\GameDetails\Aurora.Skin.Scenes.Game.Details.Menu.Icons.Artwork.Hide.png</GAMEHIDEICON>
+				<GAMEUNHIDEICON>Images\Icons\GameDetails\Aurora.Skin.Scenes.Game.Details.Menu.Icons.Artwork.Show.png</GAMEUNHIDEICON>
+			</Instance>
+		</ScnGameOptions>
+		<AchievementList>
+			<Instance id="AchievementList">
+				<SECRETACHV>Images\Icons\GameAchievements\Aurora.Skin.Dialogs.Game.Details.Achievements.Artwork.Icons.Secret.Blur.png</SECRETACHV>
+				<SECRETACHVFOCUS>Images\Icons\GameAchievements\Aurora.Skin.Dialogs.Game.Details.Achievements.Artwork.Icons.Secret.Focus.png</SECRETACHVFOCUS>
+				<LOCKEDACHV>Images\Icons\GameAchievements\Aurora.Skin.Dialogs.Game.Details.Achievements.Artwork.Icons.Locked.Blur.png</LOCKEDACHV>
+				<LOCKEDACHVFOCUS>Images\Icons\GameAchievements\Aurora.Skin.Dialogs.Game.Details.Achievements.Artwork.Icons.Locked.Focus.png</LOCKEDACHVFOCUS>
+			</Instance>
+		</AchievementList>
+    <GameBrowserList>
+      <Instance id="GameBrowserList">
+        <FAVORITEBLUR>Images\Icons\GameBrowser\Aurora.Skin.Dialogs.Quick.Browse.Favorite.Blur.png</FAVORITEBLUR>
+        <FAVORITEFOCUS>Images\Icons\GameBrowser\Aurora.Skin.Dialogs.Quick.Browse.Favorite.Focus.png</FAVORITEFOCUS>
+      </Instance>
+    </GameBrowserList>
+    <AvailableFilterList>
+			<Instance id="FilterList">
+				<SELECTED>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Selected.Blur.png</SELECTED>
+				<SELECTEDFOCUS>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Selected.Focus.png</SELECTEDFOCUS>
+				<DIRECTORY>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Directory.Blur.png</DIRECTORY>
+				<DIRECTORYFOCUS>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Directory.Focus.png</DIRECTORYFOCUS>
+				<DESELECTED>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Deselected.Blur.png</DESELECTED>
+				<DESELECTEDFOCUS>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Deselected.Focus.png</DESELECTEDFOCUS>
+				<UPDIRECTORY>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Up.Blur.png</UPDIRECTORY>
+				<UPDIRECTORYFOCUS>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Up.Focus.png</UPDIRECTORYFOCUS>
+        <SELECTEDDIR>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Active.Blur.png</SELECTEDDIR>
+        <SELECTEDDIRFOCUS>Images\Icons\GameView\Aurora.Skin.Scenes.View.Icons.Active.Focus.png</SELECTEDDIRFOCUS>
+			</Instance>
+		</AvailableFilterList>
+    <QVFilterList>
+      <Instance id="QVFilterList">
+        <CATEGORY>Images\Icons\QuickView\Aurora.Skin.Dialogs.View.QVB.Operators.Filters.Icons.Artwork.Directory.Blur.png</CATEGORY>
+        <CATEGORYFOCUS>Images\Icons\QuickView\Aurora.Skin.Dialogs.View.QVB.Operators.Filters.Icons.Artwork.Directory.Focus.png</CATEGORYFOCUS>
+        <FILTER>Images\Icons\QuickView\Aurora.Skin.Dialogs.View.QVB.Operators.Filters.Icons.Artwork.Filter.Blur.png</FILTER>
+        <FILTERFOCUS>Images\Icons\QuickView\Aurora.Skin.Dialogs.View.QVB.Operators.Filters.Icons.Artwork.Filter.Focus.png</FILTERFOCUS>
+      </Instance>
+    </QVFilterList>
+    <FileBrowserList>
+			<Instance id="FileList">
+				<DEVICEENABLED>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.Hdd.Enabled.Blur.png</DEVICEENABLED>
+				<DEVICEFOCUS>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.Hdd.Enabled.Focus.png</DEVICEFOCUS>
+				<DEVICEDISABLED>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.Hdd.Disabled.Blur.png</DEVICEDISABLED>
+				<DEVICEDISABLEDFOCUS>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.Hdd.Disabled.Focus.png</DEVICEDISABLEDFOCUS>
+				<DIRECTORYENABLED>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.Directory.Enabled.Blur.png</DIRECTORYENABLED>
+				<DIRECTORYFOCUS>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.Directory.Enabled.Focus.png</DIRECTORYFOCUS>
+				<DIRECTORYDISABLED>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.Directory.Disabled.Blur.png</DIRECTORYDISABLED>
+				<DIRECTORYDISABLEDFOCUS>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.Directory.Disabled.Focus.png</DIRECTORYDISABLEDFOCUS>		
+				<FILEENABLED>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.File.Enabled.Blur.png</FILEENABLED>
+				<FILEFOCUS>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.File.Enabled.Focus.png</FILEFOCUS>
+				<FILEDISABLED>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.File.Disabled.Blur.png</FILEDISABLED>
+				<FILEDISABLEDFOCUS>Images\Icons\FileBrowser\Aurora.Skin.Dialogs.Filebrowser.Icons.File.Disabled.Focus.png</FILEDISABLEDFOCUS>	
+			</Instance>
+		</FileBrowserList>
+   </settings>
+</skin>
