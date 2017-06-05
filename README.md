@@ -10,4 +10,6 @@ Currently available to Aurora 0.6b
 **Tasks**
 - [x] Initial colors changes;
 - [ ] Change some blue colors in skin;
-- [ ] Change loading screen;
+- [x] Fix loading screen;
+- [ ] Create more buttons like Xbox ONE design;
+- [ ] Create animation in loading screen;
